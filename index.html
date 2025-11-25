@@ -1260,67 +1260,49 @@
   <main id="inicio">
     <!-- HERO -->
     <!-- HERO -->
-    <!-- HERO BANNER PRINCIPAL - ESTILO IMAGEM LARGA -->
-<section class="hero-banner" id="inicio">
-  <div class="hero-banner-inner">
-    <div class="hero-banner-card">
-      <!-- TROQUE ESTA IMAGEM PELO SEU BANNER PRINCIPAL -->
-      <!-- Exemplo de caminho: assets/banner-principal-ana-machado.jpg -->
-      <img src="assets/banner-principal-ana-machado.jpg" alt="Banner principal Ana Machado Boutique">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-copy fade-in">
+            <div class="hero-badge-row">
+              <div class="pill">🤍 Looks casuais para o dia a dia</div>
+              <span style="font-size:0.8rem; color:var(--color-text-soft);">Belo Horizonte · MG</span>
+            </div>
+            <h1 class="hero-title">
+              Seu look favorito <span>para todos os dias</span>.
+            </h1>
+            <p class="hero-subtitle">
+              A Ana Machado Boutique une leveza, feminilidade e conforto para criar looks casuais que funcionam na vida real: trabalho, faculdade, almoço e fim de semana.
+            </p>
+            <div class="hero-cta-row">
+              <button class="btn" onclick="document.getElementById('produtos').scrollIntoView({behavior:'smooth'});">
+                Ver todos os looks
+              </button>
+              <button class="btn-outline" onclick="window.open('https://www.instagram.com/anamachado_boutique/', '_blank')">
+                Ver looks no Instagram
+              </button>
+            </div>
+            <div class="hero-highlights">
+              <span>Peças pensadas para o dia a dia</span>
+              <span>Compra direta pelo site</span>
+              <span>Atendimento próximo no WhatsApp</span>
+            </div>
+          </div>
 
-      <!-- OVERLAY OPCIONAL COM TEXTO (PODE EDITAR OU ATÉ APAGAR) -->
-      <div class="hero-banner-overlay">
-        <h2>Looks casuais que te acompanham o dia todo.</h2>
-        <p>
-          Conjuntos, vestidos e macaquinhos pensados para o seu dia a dia em Belo Horizonte.
-        </p>
-        <button class="btn btn-small" type="button"
-          onclick="document.getElementById('produtos').scrollIntoView({behavior:'smooth'});">
-          VER LANÇAMENTOS
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FAIXA DE BENEFÍCIOS EMBAIXO DO BANNER (IGUAL AOS ÍCONES DAS PRINTS) -->
-<section class="benefits-strip">
-  <div class="benefits-strip-inner">
-    <div class="benefits-list">
-      <div class="benefit-item">
-        <div class="benefit-icon">💳</div>
-        <div class="benefit-text">
-          <strong>Pague parcelado</strong>
-          <span>Parcele suas compras no cartão (detalhes você edita aqui).</span>
+          <div class="hero-media fade-in">
+            <div class="hero-main-img">
+              <!-- TROQUE ESSA IMAGEM PELO SEU LOOK PRINCIPAL -->
+              <img src="assets/hero-look-principal.jpg" alt="Look casual Ana Machado Boutique" data-modal-image>
+            </div>
+            <div class="hero-floating-card">
+              <strong>Look da semana</strong>
+              <small>Macaquinho leve + sandália comfy — perfeito para dias de sol em BH.</small>
+              <span class="tag">Novidade</span>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="benefit-item">
-        <div class="benefit-icon">📦</div>
-        <div class="benefit-text">
-          <strong>Frete combinado</strong>
-          <span>Combine frete e entrega diretamente com a Ana.</span>
-        </div>
-      </div>
-
-      <div class="benefit-item">
-        <div class="benefit-icon">🔄</div>
-        <div class="benefit-text">
-          <strong>Troca fácil</strong>
-          <span>Peças com possibilidade de troca, conforme política da boutique.</span>
-        </div>
-      </div>
-
-      <div class="benefit-item">
-        <div class="benefit-icon">🔒</div>
-        <div class="benefit-text">
-          <strong>Compra segura</strong>
-          <span>Seus dados usados apenas para processar o pedido.</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- NOVIDADES & DESTAQUES -->
     <section class="section" id="novidades">
